@@ -55,4 +55,3 @@ def person_LIST(request, format=None):
     id_persons = Person.objects.all()
     serializer = PersonsSerializer(id_persons, many=True)
     return Response(serializer.data,status=status.HTTP_200_OK)
-
