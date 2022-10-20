@@ -87,10 +87,10 @@ WSGI_APPLICATION = 'PersonRSOI.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd2sk0vtft7jq90',
-        'USER': 'yozgatmzgoipay',
-        'PASSWORD': 'd53a46c14c7c2c1f895bb1c776faec17d3155c336b1e843e158187b1ecdfd8cd',
-        'HOST': 'ec2-3-220-207-90.compute-1.amazonaws.com',
+        'NAME': 'ddpe5il0loajji',
+        'USER': 'ucwpgeufectoik',
+        'PASSWORD': '750c383b126848fe750687a7ebba2966096808685471421ab209bd2e37c80189',
+        'HOST': 'ec2-3-93-206-109.compute-1.amazonaws.com',
         'PORT': 5432,
     }
 }
