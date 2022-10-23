@@ -82,14 +82,23 @@ WSGI_APPLICATION = 'PersonRSOI.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+DATABASES  = {
+    'default' : {
+        'ENGINE' : 'django.db.backends.postgresql_psycopg2' ,
+        'NAME' : 'ddpe5il0loajji' ,
+        'USER' : 'ucwpgeufectoik' ,
+        'PASSWORD' : '750c383b126848fe750687a7ebba2966096808685471421ab209bd2e37c80189',
+        'HOST' : 'ec2-3-93-206-109.compute-1.amazonaws.com' ,
+        'PORT' : 5432 ,
     }
 }
-
-
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
